@@ -3,7 +3,7 @@ import { Register } from "./pages/Register";
 import { Login } from "./pages/Login";
 import { Profile } from "./pages/Profile";
 import { ProtectedRoute } from "./components/ProtectedRoute";
-import Navbar from "./components/Navbar";
+import { Navbar } from "./components/Navbar";
 
 function App() {
   return (

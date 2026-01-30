@@ -22,8 +22,6 @@ export const Login = () =>
     if (!result.success) 
     {
       setError(result.message);
-      setEmail("");
-      setPassword("");
       return;
     }
 
