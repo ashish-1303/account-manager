@@ -26,13 +26,13 @@ export const Navbar = () =>
       <span style={{ float: "right" }}>
         {!user ? (
           <>
-            <button onClick={() => navigate("/login")}>Login</button>{" "}
-            <button onClick={() => navigate("/register")}>Register</button>
+            <button onClick={() => navigate("/login")}> Login </button>{" "}
+            <button onClick={() => navigate("/register")}> Register </button>
           </>
         ) : (
           <>
-            <button onClick={() => navigate("/profile")}>Profile</button>{" "}
-            <button onClick={handleLogout}>Logout</button>
+            <button onClick={() => navigate("/profile")}> Profile </button>{" "}
+            <button onClick={handleLogout}> Logout </button>
           </>
         )}
       </span>
